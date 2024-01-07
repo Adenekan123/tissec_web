@@ -8,12 +8,14 @@ import {
   createRoutesFromElements,
 } from "react-router-dom";
 import Layout from "./components/layout";
-import Home from "./components/pages/home";
-import PenetrationTesting from "./components/pages/services/penetration-testing";
-import EthicalPhishing from "./components/pages/services/ethical-phishing";
-import AboutUs from "./components/pages/who-we-are/about";
-import Location from "./components/pages/who-we-are/location";
-import Contact from "./components/pages/contact";
+import Home from "./pages/home";
+import Contact from "./pages/contact";
+import PenetrationTesting from "./pages/services/penetration-testing";
+import EthicalPhishing from "./pages/services/ethical-phishing";
+import AboutUs from "./pages/who-we-are/about";
+import Location from "./pages/who-we-are/location";
+import RansomWareSimulation from "./pages/services/ransomware-simulation";
+
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -25,7 +27,7 @@ const router = createBrowserRouter(
         <Route path="services">
           <Route path="penetration-testing" element={<PenetrationTesting />} />
           <Route path="ethical-phishing" element={<EthicalPhishing />} />
-          <Route path="ethical-phishing" element={<EthicalPhishing />} />
+          <Route path="ransomware-simulation" element={<RansomWareSimulation />} />
         </Route>
         
         <Route path="who-we-are">
