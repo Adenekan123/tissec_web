@@ -4,10 +4,10 @@ import { homeBannerContents } from "../../static/home.static";
 
 const Home = () => {
   return (
-    <div className="px-20 bg-[url('/images/home-bg-n.jpg')] min-h-[80vh]">
+    <div className="bg-[url('/images/home-bg-n.jpg')] min-h-screen lg:min-h-[80vh] bg-cover bg-center">
       <Carousel>
         {homeBannerContents.map((content, i) => (
-          <div key={"slide" + i} className="embla__slide">
+          <div key={"slide" + i} className="embla__slide h-full">
             <HomeBaner content={content} />
           </div>
         ))}
