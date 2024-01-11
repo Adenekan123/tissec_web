@@ -1,6 +1,7 @@
 import logo from "../../assets/images/FalanxCyber_Yellow_RGB_HighRes_Wavenet-2.png"
 export const Header = () => {
   return (
+<<<<<<< HEAD
     <div className="border px-8 py-4">
       <header className="flex space-x-32 justify-between w-full ">
         <div className="">
@@ -15,6 +16,9 @@ export const Header = () => {
         </div>
       </header>
     </div>
+=======
+    <div className="border px-8 py-4 bg-blue-500 text-white flex justify-between">Header</div>
+>>>>>>> 8beda172179dc1b9b27cf316f464b05f432803f0
   )
 }
 
