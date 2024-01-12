@@ -4,7 +4,7 @@ export const Header = () => {
 
     <div className="border px-8 py-4">
       <header className="flex space-x-32 justify-between w-full ">
-        <div className="">
+        <div>
           <img className="w-32" src={logo} alt="" />
         </div>
         <div className="flex space-x-4 text-lg font-bold mt-4 mr-16 justify-end font-normal">
