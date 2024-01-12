@@ -1,4 +1,3 @@
-import logo from '../../assets/images/Whitex150.png';
 import { GiSmartphone } from "react-icons/gi";
 import { PiEnvelopeSimpleThin } from "react-icons/pi";
 import { CiLocationOn } from "react-icons/ci";
@@ -16,7 +15,7 @@ export const Footer = () => {
       <footer className="flex space-x-32">
         <div className="text-white text-base font-medium leading-relaxed">
           <div className="">
-            <img className="w-36 mb-5" src={logo} alt="" />
+            <img className="w-36 mb-5" src="/images/Whitex150.png" alt="" />
           </div>
           <h3 className="mb-9">Falanx Cyber Defence Limited is part of Wavenet Ltd.</h3>
           <ul>
