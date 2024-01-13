@@ -28,7 +28,7 @@ export const HomeBaner = ({ content }: { content: IHomeBannerContent }) => {
               />
             </div>
             <p className="text-center text-xs lg:text-xl italic text-white font-bold relative z-10 md:w-4/12">
-              {quote}
+              {quote ? quote : null}
             </p>
           </div>
         </div>

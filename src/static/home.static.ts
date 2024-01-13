@@ -101,6 +101,6 @@ export const whatWeDoContents = [
 export interface IHomeBannerContent {
   heading: string;
   description: string;
-  quote: string;
+  quote?: string;
   url: string;
 }
