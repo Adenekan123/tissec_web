@@ -1,18 +1,22 @@
 import { Carousel } from "../../components";
 import { HomeBaner } from "../../components";
 import { homeBannerContents } from "../../static/home.static";
+import WhatWeDo from "./components/what-we-do";
 
 const Home = () => {
   return (
-    <div className="bg-[url('/images/home-bg-n.jpg')] min-h-screen lg:min-h-[80vh] bg-cover bg-center">
-      <Carousel>
-        {homeBannerContents.map((content, i) => (
-          <div key={"slide" + i} className="embla__slide h-full">
-            <HomeBaner content={content} />
-          </div>
-        ))}
-      </Carousel>
-    </div>
+    <>
+      <section className="banner bg-[url('/images/home-bg-n.jpg')]  bg-cover bg-top-right h-[80vh]">
+        <Carousel>
+          {homeBannerContents.map((content, i) => (
+            <div key={"slide" + i} className="embla__slide h-full">
+              <HomeBaner content={content} />
+            </div>
+          ))}
+        </Carousel>
+        <WhatWeDo />
+      </section>
+    </>
   );
 };
 
