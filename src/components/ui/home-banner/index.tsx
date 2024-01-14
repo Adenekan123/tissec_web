@@ -4,9 +4,9 @@ import { IHomeBannerContent } from "../../../static/home.static";
 export const HomeBaner = ({ content }: { content: IHomeBannerContent }) => {
   const { heading, description, quote, url } = content;
   return (
-    <div className="h-full bg-white/80 md:bg-transparent relative pt-12 md:pt-32">
-      <div className="flex justify-between gap-x-10  flex-col md:flex-row md:gap-y-48 h-full">
-        <div className="flex flex-col gap-y-4 md:gap-y-10 lg:gap-y-14 basis-4/12 w-8/12 pl-6 xl:pl-24 relative z-10 ">
+    <div className="bg-white/80 md:bg-transparent relative md:pt-32">
+      <div className="flex justify-between gap-x-10  flex-col md:flex-row md:gap-y-48 h-[70vh]">
+        <div className="flex flex-col gap-y-4 md:gap-y-10 lg:gap-y-14 basis-4/12 w-8/12 pl-6 xl:pl-24 z-10 ">
           <h2 className="text-2xl lg:text-4xl capitalize">{heading}</h2>
           <p className="text-sm lg:text-xl">{description}</p>
           <div className="pt-4">
@@ -18,7 +18,7 @@ export const HomeBaner = ({ content }: { content: IHomeBannerContent }) => {
             </Link>
           </div>
         </div>
-        <div className="quote md:basis-6/12 w-8/12 relative z-10 flex md:items-start mb-auto self-end md:self-start mt-auto md:mt-28 md:pl-24">
+        <div className="quote md:basis-6/12 w-8/12 relative z-10 flex md:items-start mb-auto self-end md:self-start mt-auto md:mt-28 md:pl-24 ">
           <div className="relative ">
             <div className="absolute -top-14 md:-left-16 ">
               <img
@@ -27,7 +27,7 @@ export const HomeBaner = ({ content }: { content: IHomeBannerContent }) => {
                 className="w-20 lg:w-auto"
               />
             </div>
-            <p className="text-center text-xs lg:text-xl italic text-white font-bold relative z-10 md:w-4/12">
+            <p className="text-center text-xs lg:text-xl italic text-white font-bold relative z-10 md:w-5/12">
               {quote ? quote : null}
             </p>
           </div>
