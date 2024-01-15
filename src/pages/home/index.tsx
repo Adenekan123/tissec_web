@@ -1,5 +1,4 @@
-import { Carousel } from "../../components";
-import { HomeBaner } from "../../components";
+import { Carousel, HomeBaner } from "../../components";
 import { homeBannerContents } from "../../static/home.static";
 import { Contacts } from "./components/contact";
 import LatestNews from "./components/latest-news";

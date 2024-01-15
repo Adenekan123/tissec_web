@@ -1,3 +1,3 @@
 export * from "./carousel";
-export * from "./general-banner";
-export * from "./home-banner";
+export * from "./static-banner";
+export * from "../../pages/home/components/home-banner";

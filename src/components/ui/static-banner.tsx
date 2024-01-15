@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import { IHomeBannerContent } from "../../../static/home.static";
+import { IHomeBannerContent } from "../../static/home.static";
 
-export const GeneralBanner = ({ content }: { content: IHomeBannerContent }) => {
+export const StaticBanner = ({ content }: { content: IHomeBannerContent }) => {
   const { heading, description, url } = content;
   return (
     <div className="bg-[url('/images/home-bg-n.jpg')]  bg-cover bg-right h-[70vh] relative pt-12 md:pt-32 px-4 md:px-72">

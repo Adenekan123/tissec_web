@@ -1,9 +1,9 @@
-import { GeneralBanner } from "../../components";
+import { StaticBanner } from "../../components";
 
 const PenetrationTesting = () => {
   return (
     <section>
-      <GeneralBanner
+      <StaticBanner
         content={{
           heading: "Penetration Testing",
           description:
