@@ -4,7 +4,7 @@ import { IHomeBannerContent } from "../../../static/home.static";
 export const HomeBaner = ({ content }: { content: IHomeBannerContent }) => {
   const { heading, description, quote, url } = content;
   return (
-    <div className="bg-white/80 md:bg-transparent relative md:pt-32">
+    <div className="bg-white/80 md:bg-transparent relative md:pt-48">
       <div className="flex justify-between gap-x-10  flex-col md:flex-row md:gap-y-48 h-[70vh]">
         <div className="flex flex-col gap-y-4 md:gap-y-10 lg:gap-y-14 basis-4/12 w-8/12 pl-6 xl:pl-24 z-10 ">
           <h2 className="text-2xl lg:text-4xl capitalize">{heading}</h2>
