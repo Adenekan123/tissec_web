@@ -107,7 +107,7 @@ const EthicalPhishing = () => {
           <div className="flex m-12 justify-evenly ">
             <div className="w-3/6 ml-40 bg-zinc-50 px-8 py-4 shadow-2xl shadow-sky-150 mt-16">
               <p className="text-2xl leading-normal text-sky-950">"My job is to ensure that our business is protected against cyber security attacks. I need a company that can hunt for and eradicate threats."</p>
-              <p className="flex justify-end mt-8 ext-sky-950">CISO</p>
+              <p className="flex justify-end mt-8 text-sky-950">CISO</p>
             </div>
             <div className="ml-32 mt-16">
               <p className="w-7/12 text-2xl text-center font-semibold text-sky-950 mb-8">24/7 ongoing monitoring to hunt for and eradicate threats</p>
