@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 import { IHomeBannerContent } from "../../static/home.static";
 
-export const StaticBanner = ({ content }: { content: IHomeBannerContent }) => {
+export const StaticBanner = ({ content, image='/images/home-bg-n.jpg' }: { content: IHomeBannerContent,image?:string }) => {
   const { heading, description, url } = content;
   return (
-    <div className="bg-[url('/images/home-bg-n.jpg')]  bg-cover bg-right h-[70vh] relative pt-12 md:pt-32 px-4 md:px-72">
+    <div className={`bg-[url(${image})]  bg-cover bg-right h-[70vh] relative pt-12 md:pt-32 px-4 md:px-72`}>
       <div className="flex justify-between gap-x-72 items-center">
         <div className="flex flex-col gap-y-4 md:gap-y-8  xl:pl-24 relative z-10 md:basis-5/12 ">
           <h2 className="text-2xl lg:text-4xl capitalize  w-3/4">{heading}</h2>
