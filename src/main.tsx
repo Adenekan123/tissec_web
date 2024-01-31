@@ -15,6 +15,10 @@ import EthicalPhishing from "./pages/services/ethical-phishing";
 import AboutUs from "./pages/who-we-are/about";
 import Location from "./pages/who-we-are/location";
 import RansomWareSimulation from "./pages/services/ransomware-simulation";
+import ContinuousVulnerabilityScanning from "./pages/services/continuous-vulnerability-scanning";
+import ManagedDetectionResponse from "./pages/services/managed-detection-response";
+import ThreatRiskAssessments from "./pages/services/threat-risk-assessments";
+
 
 
 const router = createBrowserRouter(
@@ -28,6 +32,10 @@ const router = createBrowserRouter(
           <Route path="penetration-testing" element={<PenetrationTesting />} />
           <Route path="ethical-phishing" element={<EthicalPhishing />} />
           <Route path="ransomware-simulation" element={<RansomWareSimulation />} />
+          <Route path="continuous-vulnerability-scanning" element={<ContinuousVulnerabilityScanning />}/>
+          <Route path="managed-detection-response" element={<ManagedDetectionResponse />}/>
+          <Route path="threat-risk-assessments" element={<ThreatRiskAssessments />}/>
+
         </Route>
         
         <Route path="who-we-are">
