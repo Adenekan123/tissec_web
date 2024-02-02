@@ -25,6 +25,7 @@ const ManagedDetectionResponse = () => {
                             description: "24/7/365 cyber security threat monitoring for your business",
                             url: "#",
                         }}
+
                     />
                 </section>
             </section>
@@ -35,22 +36,22 @@ const ManagedDetectionResponse = () => {
                     <h2 className="flex md:text-4xl text-3xl text-blue-950 md:justify-center text-center mb-16 pt-12">Why do I need a managed detection and response service?</h2>
                     <div className="md:grid md:grid-cols-4 justify-center md:space-x-12 mb-16">
                         <div className="md:mb-0 mb-12">
-                            <div className="flex justify-center items-center mb-4 text-5xl bg-zinc-100 w-28 py-7  shadow-xl hover:bg-amber-300 hover:text-white ml-16"><HiOutlineLockOpen /></div>
+                            <div className="flex justify-center items-center mb-4 text-5xl bg-zinc-100 w-28 py-7  shadow-xl hover:bg-amber-300 hover:text-white ml-16 text-blue-950"><HiOutlineLockOpen /></div>
                             <p className="text-center text-xl text-blue-950 mb-8">Ransomware protection</p>
                             <p className="text-blue-950 md:px-4 text-center">We detect and respond to threats across your entire IT estate and spot signs of intrusion early.</p>
                         </div>
                         <div className="md:mb-0 mb-12">
-                            <div className="flex justify-center mb-4 text-5xl bg-zinc-100 w-28 py-7  shadow-xl hover:bg-amber-300 hover:text-white ml-12"><RxCounterClockwiseClock /></div>
+                            <div className="flex justify-center mb-4 text-5xl bg-zinc-100 w-28 py-7  shadow-xl hover:bg-amber-300 hover:text-white ml-12 text-blue-950"><RxCounterClockwiseClock /></div>
                             <p className="text-center text-lg text-blue-950 mb-8">Out of hours cover</p>
                             <p className="text-blue-950 text-center">Our team are an extension of yours. We’re here, around the clock, watching for anomalies on your network</p>
                         </div>
                         <div className="md:mb-0 mb-12">
-                            <div className="flex justify-center mb-4 text-5xl bg-zinc-100 w-28 py-7   shadow-xl hover:bg-amber-300 hover:text-white ml-12"><TfiAlarmClock /></div>
+                            <div className="flex justify-center mb-4 text-5xl bg-zinc-100 w-28 py-7   shadow-xl hover:bg-amber-300 hover:text-white ml-12 text-blue-950"><TfiAlarmClock /></div>
                             <p className="text-center text-lg text-blue-950 mb-8">Fast response</p>
                             <p className="text-blue-950 text-center">Quickly detect and respond to suspicious activity in real-time</p>
                         </div>
                         <div className="md:mb-0 mb-12">
-                            <div className="flex justify-center mb-4 text-5xl bg-zinc-100 w-28 py-7 shadow-xl hover:bg-amber-300 hover:text-white ml-16"><SiCircle /></div>
+                            <div className="flex justify-center mb-4 text-5xl bg-zinc-100 w-28 py-7 shadow-xl hover:bg-amber-300 hover:text-white ml-16 text-blue-950"><SiCircle /></div>
                             <p className="text-center text-lg text-blue-950 mb-8">Evolving threat landscape</p>
                             <p className="text-blue-950  text-center">The tools and know-how to maximise breech detection</p>
                         </div>
@@ -64,9 +65,9 @@ const ManagedDetectionResponse = () => {
             </section>
 
             <section>
-                <div className="md:bg-[url('/images/raise_the_bar.jpg')]  bg-cover relative md:mb-20 mb-8">
+                <div className="md:bg-[url('/images/raise_the_bar.jpg')]  bg-cover  bg-right relative md:mb-20 mb-8">
                     <div className=" flex flex-row md:justify-end">
-                        <div className=" flex flex-col md:w-2/6 text-left md:mr-4 md:my-24 my-8 px-6">
+                        <div className=" flex flex-col md:w-5/12 text-left md:mr-4 md:my-24 my-8 px-6">
                             <h2 className="md:text-5xl text-3xl text-blue-950 mb-8 leading-tight">Day or night, weekends and public holidays we alert you to suspicious activity across your IT estate and can respond to threats on your behalf</h2>
                             <div className="text-left">
                                 <p className="mb-6 text-blue-950 leading-7">Our fully-managed detection and response service means you don’t need a team of in-house security experts to trawl through security alerts or race to respond to suspicious activity at 3.a.m.</p>
@@ -143,7 +144,7 @@ const ManagedDetectionResponse = () => {
             </section>
             <section>
                 <div>
-                    <div className="flex md:pl-28 md:pr-20 bg-slate-950 text-white py-8">
+                    <div className="flex md:pl-28 md:pr-20 bg-[#122135] text-white py-8">
                         <div className="md:px-0 md:py-0 px-4 py-8">
                             <h2 className="md:text-5xl text-4xl mb-8">Works with your environment</h2>
                             <p className="mb-2"><span className="font-bold">Don’t have a SIEM tool?</span>No worries.</p>
@@ -152,7 +153,7 @@ const ManagedDetectionResponse = () => {
                             <p className="mb-10">No specialist IT resources are required, our MDR is fully managed, end-to-end.</p>
                             <button className="bg-amber-500  text-white py-4 px-6">Request more information</button>
                         </div>
-                        <div className="">
+                        <div className="hidden md:block">
                             <img src="/images/Falanx-Image2.jpg" alt="" />
 
                         </div>
@@ -163,7 +164,7 @@ const ManagedDetectionResponse = () => {
             <section>
                 <div>
                     <div className="flex md:p-28 px-4 bg-[url('/images/mdr-grey-bg-yellow.jpg')] bg-cover mb-8 ">
-                        <div className="">
+                        <div className="hidden md:block">
                             <img src="/images/Inspecs-select-Falanx-Cyber.png" alt="" />
 
                         </div>
@@ -232,8 +233,8 @@ const ManagedDetectionResponse = () => {
                                 <input type="checkbox" name="" id="" />
                                 <label htmlFor="">I agree to the privacy policy.</label>
                             </div>
-                            <div className="flex items-center gap-x-3">
-                                <input type="checkbox" name="" id="" />
+                            <div className="flex gap-x-3">
+                                <div><input type="checkbox" name="" id="" /></div>
                                 <label htmlFor="">
                                     I agree to receive marketing emails from Falanx and understand
                                     that I can unsubscribe at any time..

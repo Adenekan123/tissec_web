@@ -50,7 +50,6 @@ const router = createBrowserRouter(
         <Route path="who-we-are">
           <Route path="about" element={<AboutUs />} />
           <Route path="location" element={<Location />} />
-          <Route path="ethical-phishing" element={<EthicalPhishing />} />
         </Route>
       </Route>
     </>
