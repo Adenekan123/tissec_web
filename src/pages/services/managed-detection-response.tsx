@@ -91,7 +91,7 @@ const ManagedDetectionResponse = () => {
                     <h2 className="md:text-4xl text-3xl text-center md:mb-20 mb-24 md:p-0 p-4">Why Choose Falanx Cyber MDR? </h2>
                     <div className="md:grid md:grid-cols-2 gap-x-8 gap-y-8 md:mx-28 mx-4">
                         <div className=" bg-white flex shadow-2xl shadow-sky-150 px-6 py-12 hover:bg-sky-950 hover:text-amber-300 group md:mb-0 mb-8">
-                            <div className="text-5xl mr-8"><CgArrowLongRight /></div>
+                            <div className="text-5xl mr-8 text-blue-950"><CgArrowLongRight /></div>
                             <div>
                                 <p className=" text-2xl mb-4">Flexible approach</p>
                                 <p className="group-hover:text-white">From EDR to fully-managed XDR we have flexible offerings to suit your level of risk, cyber maturity and affordability.</p>
