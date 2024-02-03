@@ -20,6 +20,7 @@ import OurTestingProcess from "./pages/services/our-testing-process";
 import ManagedEndpoint from "./pages/services/managed-endpoint";
 import RetainedTesting from "./pages/services/retained-testing";
 import CyberEssential from "./pages/services/cyber-essential";
+import AwarenessTraining from "./pages/services/awareness-training";
 
 
 const router = createBrowserRouter(
@@ -38,6 +39,7 @@ const router = createBrowserRouter(
           <Route path="managed-endpoint" element={<ManagedEndpoint/>}/>
           <Route path="retained-testing" element={<RetainedTesting/>}/>
           <Route path="cyber-essential" element={<CyberEssential/>}/>
+          <Route path="awareness-training" element={<AwarenessTraining/>}/>
         </Route>
         
         <Route path="who-we-are">
