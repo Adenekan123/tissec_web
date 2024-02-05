@@ -22,6 +22,7 @@ import RetainedTesting from "./pages/services/retained-testing";
 import ContinuousVulnerabilityScanning from "./pages/services/continuous-vulnerability-scanning";
 import ManagedDetectionResponse from "./pages/services/managed-detection-response";
 import ThreatRiskAssessments from "./pages/services/threat-risk-assessments";
+import PartneringWithUs from "./pages/who-we-are/partnering-with-us";
 
 
 const router = createBrowserRouter(
@@ -50,6 +51,8 @@ const router = createBrowserRouter(
         <Route path="who-we-are">
           <Route path="about" element={<AboutUs />} />
           <Route path="location" element={<Location />} />
+          <Route path="partnering-with-us" element={<PartneringWithUs />} />
+
         </Route>
       </Route>
     </>
