@@ -11,9 +11,9 @@ import { FaYoutube } from "react-icons/fa";
 
 export const Footer = () => {
   return (
-    <div className="border bg-sky-950 p-28">
-      <footer className="flex space-x-32">
-        <div className="text-white text-base font-medium leading-relaxed">
+    <div className="border bg-sky-950 md:p-28 p-8">
+      <footer className="md:flex md:space-x-16">
+        <div className="text-white text-base font-medium leading-relaxed md:pt-0 pt-20">
           <div className="">
             <img className="w-36 mb-5" src="/images/Whitex150.png" alt="" />
           </div>
@@ -27,7 +27,7 @@ export const Footer = () => {
           <h3>VAT No. GB3677 307 67</h3>
         </div>
 
-        <div className="flex space-x-12 text-white">
+        <div className="flex md:space-x-12 space-x-8 text-white mt-8 mb-12">
           <div className="leading-loose">
             <h3 className="font-extrabold text-lg mb-5">What we do</h3>
             <ul className='text-base leading-7'>
@@ -40,14 +40,16 @@ export const Footer = () => {
           <div className="leading-loose">
             <h3 className="font-extrabold text-lg mb-5">Who we are</h3>
             <ul className='text-base'>
-              <li><a href="" className='hover:text-amber-300'>About Us</a></li>
-              <li><a href="" className='hover:text-amber-300'>Meet our Team</a></li>
-              <li><a href="" className='hover:text-amber-300'>Case Studies</a></li>
-              <li><a href="" className='hover:text-amber-300'>Blog</a></li>
+              <li><a href="" className='hover:text-amber-300 mb-4'>About Us</a></li>
+              <li><a href="" className='hover:text-amber-300 mb-4'>Meet our Team</a></li>
+              <li><a href="" className='hover:text-amber-300 mb-4'>Case Studies</a></li>
+              <li><a href="" className='hover:text-amber-300 mb-4'>Blog</a></li>
             </ul>
 
           </div>
-          <div className="leading-loose font-thin text-sm">
+          
+        </div>
+        <div className="leading-loose font-thin text-sm text-white mt-8">
             <h3 className="font-extrabold text-lg mb-5">Contact</h3>
             <div className='flex mb-4 '>
               <div className='text-2xl mr-3 text-amber-300'><GiSmartphone /></div>
@@ -63,7 +65,6 @@ export const Footer = () => {
               <ul><li><a href="" className='hover:text-amber-300'>Our Location</a></li></ul>
             </div>
           </div>
-        </div>
       </footer>
       <div className=" flex text-white mt-7 font-medium space-x-96">
         <div className='text-2xl'>
