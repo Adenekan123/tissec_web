@@ -48,9 +48,6 @@ const router = createBrowserRouter(
           <Route path="continuous-vulnerability-scanning" element={<ContinuousVulnerabilityScanning/>}/>
           <Route path="managed-detection-response" element={<ManagedDetectionResponse/>}/>
           <Route path="threat-risk-assessments" element={<ThreatRiskAssessments/>}/>
-
-
-
         </Route>
         
         <Route path="who-we-are">
