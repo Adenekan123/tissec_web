@@ -19,6 +19,13 @@ import RedTeaming from "./pages/services/red-teaming";
 import OurTestingProcess from "./pages/services/our-testing-process";
 import ManagedEndpoint from "./pages/services/managed-endpoint";
 import RetainedTesting from "./pages/services/retained-testing";
+import CyberEssential from "./pages/services/cyber-essential";
+import AwarenessTraining from "./pages/services/awareness-training";
+
+import ContinuousVulnerabilityScanning from "./pages/services/continuous-vulnerability-scanning";
+import ManagedDetectionResponse from "./pages/services/managed-detection-response";
+import ThreatRiskAssessments from "./pages/services/threat-risk-assessments";
+import PartneringWithUs from "./pages/who-we-are/partnering-with-us";
 
 
 const router = createBrowserRouter(
@@ -36,12 +43,21 @@ const router = createBrowserRouter(
           <Route path="our-testing-process" element={<OurTestingProcess/>}/>
           <Route path="managed-endpoint" element={<ManagedEndpoint/>}/>
           <Route path="retained-testing" element={<RetainedTesting/>}/>
+          <Route path="cyber-essential" element={<CyberEssential/>}/>
+          <Route path="awareness-training" element={<AwarenessTraining/>}/>
+          <Route path="continuous-vulnerability-scanning" element={<ContinuousVulnerabilityScanning/>}/>
+          <Route path="managed-detection-response" element={<ManagedDetectionResponse/>}/>
+          <Route path="threat-risk-assessments" element={<ThreatRiskAssessments/>}/>
+
+
+
         </Route>
         
         <Route path="who-we-are">
           <Route path="about" element={<AboutUs />} />
           <Route path="location" element={<Location />} />
-          <Route path="ethical-phishing" element={<EthicalPhishing />} />
+          <Route path="partnering-with-us" element={<PartneringWithUs />} />
+
         </Route>
       </Route>
     </>
