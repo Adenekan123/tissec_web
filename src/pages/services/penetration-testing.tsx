@@ -36,11 +36,11 @@ const PenetrationTesting = () => {
               <button className="text-6xl shadow-xl p-8 hover:bg-amber-400 mb-8 hover:text-white"><MdOutlineSearch /></button>
               <p className="text-lg">Uncover critical vulnerabilities in your organisation.</p>
             </div>
-            <div className="flex flex flex-col items-center">
+            <div className="flex flex-col items-center">
               <button className="text-6xl shadow-xl p-8 hover:bg-amber-400 mb-8 hover:text-white"><GiNotebook /></button>
               <p className="text-lg">Enable you to prioritise and address risks through detailed reports.</p>
             </div>
-            <div className="flex flex flex-col items-center">
+            <div className="flex flex-col items-center">
               <button className="text-6xl shadow-xl p-8 hover:bg-amber-400 mb-8 hover:text-white"><IoStarOutline /></button>
               <p className="text-lg">Assisting in meeting industry and regulatory compliance.</p>
             </div>
