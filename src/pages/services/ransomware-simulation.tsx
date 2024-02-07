@@ -125,7 +125,7 @@ const RansomWareSimulation = () => {
                 <label htmlFor="">I agree to the privacy policy.</label>
               </div>
               <div className="flex items-center gap-x-3">
-                <input type="checkbox" name="" id="" />
+                <div><input type="checkbox" name="" id="" /></div>
                 <label htmlFor="">
                   I agree to receive marketing emails from Falanx and understand
                   that I can unsubscribe at any time..
