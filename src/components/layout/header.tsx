@@ -6,6 +6,7 @@ import {
 import { BiChevronDown } from "react-icons/bi";
 import { HiMenuAlt2 } from "react-icons/hi";
 import { CgClose } from "react-icons/cg";
+import { Link } from "react-router-dom";
 
 type TDromMenu = {
   title: string;
@@ -74,13 +75,13 @@ export const Header = () => {
   return (
     <div className="px-4 md:px-24 py-4 absolute left-0 w-full z-20">
       <header className="flex items-center space-x-32 justify-between w-full ">
-        <div>
+        <Link to={"/"}>
           <img
             className="w-32"
             src={"/images/FalanxCyber_Yellow_RGB_HighRes_Wavenet-2.png"}
             alt=""
           />
-        </div>
+        </Link>
         <div
           className={`flex flex-col lg:flex-row lg:gap-x-8 text-lg font-semibold lg:justify-end fixed lg:relative top-0 right-0 h-screen overflow-hidden overflow-y-auto lg:overflow-visible lg:h-[auto] w-8/12 lg:w-auto bg-blue-950 lg:bg-transparent px-6 pb-12 lg:p-0 transition-transform ${
             !toggler.menu

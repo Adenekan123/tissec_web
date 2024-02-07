@@ -4,86 +4,62 @@ export const services_menuItems = [
     links: [
       {
         label: "penetration testing",
-        url: "#",
+        url: "/services/penetration-testing",
       },
       {
         label: "ethical phishing",
-        url: "#",
+        url: "/services/ethical-phishing",
       },
       {
         label: "ramsom-simulation",
-        url: "#",
+        url: "/services/ransomware-simulation",
       },
       {
         label: "red-teaming",
-        url: "#",
+        url: "/services/red-teaming",
       },
       {
         label: "continous vunerability scanning",
-        url: "#",
+        url: "/services/continuous-vulnerability-scanning",
       },
       {
         label: "our test process",
-        url: "#",
+        url: "/services/our-testing-process",
       },
     ],
   },
   {
-    title: "Test",
+    title: "Detect & Response",
     links: [
       {
-        label: "penetration testing",
-        url: "#",
+        label: "Managed detection & response",
+        url: "/services/managed-detection-response",
       },
       {
-        label: "ethical phishing",
-        url: "#",
+        label: "Managed endpoint detection & response",
+        url: "/services/managed-endpoint",
       },
       {
-        label: "ramsom-simulation",
-        url: "#",
-      },
-      {
-        label: "red-teaming",
-        url: "#",
-      },
-      {
-        label: "continous vunerability scanning",
-        url: "#",
-      },
-      {
-        label: "our test process",
-        url: "#",
+        label: "retained incident response",
+        url: "/services/retained-testing",
       },
     ],
   },
   {
-    title: "Test",
+    title: "Advise",
     links: [
       {
-        label: "penetration testing",
-        url: "#",
+        label: "awarenes training",
+        url: "/services/awareness-training",
       },
       {
-        label: "ethical phishing",
-        url: "#",
+        label: "cyber essential",
+        url: "/services/cyber-essential",
       },
       {
-        label: "ramsom-simulation",
-        url: "#",
-      },
-      {
-        label: "red-teaming",
-        url: "#",
-      },
-      {
-        label: "continous vunerability scanning",
-        url: "#",
-      },
-      {
-        label: "our test process",
-        url: "#",
-      },
+        label: "threat-risk assesment",
+        url: "/services/threat-risk-assessments",
+      }
     ],
   },
 ];
@@ -92,87 +68,75 @@ export const whoWeAre_menuItems = [
     title: "Company",
     links: [
       {
-        label: "penetration testing",
-        url: "#",
+        label: "about",
+        url: "/who-we-are/about",
       },
       {
-        label: "ethical phishing",
-        url: "#",
+        label: "Location",
+        url: "/who-we-are/location",
       },
       {
-        label: "ramsom-simulation",
-        url: "#",
-      },
-      {
-        label: "red-teaming",
-        url: "#",
-      },
-      {
-        label: "continous vunerability scanning",
-        url: "#",
-      },
-      {
-        label: "our test process",
-        url: "#",
-      },
+        label: "partnering with us",
+        url: "/who-we-are/partnering-with-us",
+      }
     ],
   },
-  {
-    title: "Team",
-    links: [
-      {
-        label: "penetration testing",
-        url: "#",
-      },
-      {
-        label: "ethical phishing",
-        url: "#",
-      },
-      {
-        label: "ramsom-simulation",
-        url: "#",
-      },
-      {
-        label: "red-teaming",
-        url: "#",
-      },
-      {
-        label: "continous vunerability scanning",
-        url: "#",
-      },
-      {
-        label: "our test process",
-        url: "#",
-      },
-    ],
-  },
-  {
-    title: "latest services",
-    links: [
-      {
-        label: "penetration testing",
-        url: "#",
-      },
-      {
-        label: "ethical phishing",
-        url: "#",
-      },
-      {
-        label: "ramsom-simulation",
-        url: "#",
-      },
-      {
-        label: "red-teaming",
-        url: "#",
-      },
-      {
-        label: "continous vunerability scanning",
-        url: "#",
-      },
-      {
-        label: "our test process",
-        url: "#",
-      },
-    ],
-  },
+  // {
+  //   title: "Team",
+  //   links: [
+  //     {
+  //       label: "penetration testing",
+  //       url: "#",
+  //     },
+  //     {
+  //       label: "ethical phishing",
+  //       url: "#",
+  //     },
+  //     {
+  //       label: "ramsom-simulation",
+  //       url: "#",
+  //     },
+  //     {
+  //       label: "red-teaming",
+  //       url: "#",
+  //     },
+  //     {
+  //       label: "continous vunerability scanning",
+  //       url: "#",
+  //     },
+  //     {
+  //       label: "our test process",
+  //       url: "#",
+  //     },
+  //   ],
+  // },
+  // {
+  //   title: "latest services",
+  //   links: [
+  //     {
+  //       label: "penetration testing",
+  //       url: "#",
+  //     },
+  //     {
+  //       label: "ethical phishing",
+  //       url: "#",
+  //     },
+  //     {
+  //       label: "ramsom-simulation",
+  //       url: "#",
+  //     },
+  //     {
+  //       label: "red-teaming",
+  //       url: "#",
+  //     },
+  //     {
+  //       label: "continous vunerability scanning",
+  //       url: "#",
+  //     },
+  //     {
+  //       label: "our test process",
+  //       url: "#",
+  //     },
+  //   ],
+  // },
 ];
