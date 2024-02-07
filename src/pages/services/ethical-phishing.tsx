@@ -28,15 +28,15 @@ const EthicalPhishing = () => {
           <h2 className="flex text-4xl text-slate-950 justify-center mb-16">Why use our ethical phishing services?</h2>
           <div className="flex justify-center space-x-28 mb-16">
             <div>
-              <div className="flex justify-center mb-4 text-5xl bg-zinc-100 w-28 py-7 ml-16 shadow-xl hover:bg-amber-300 hover:text-white"><GoCircleSlash /></div>
+              <div className="flex justify-center mb-4 text-5xl bg-zinc-100 w-28 py-7 mx-auto shadow-xl hover:bg-amber-300 hover:text-white"><GoCircleSlash /></div>
               <p className="text-center text-xl text-slate-950">To test your organisation’s<br /> defences.</p>
             </div>
             <div>
-              <div className="flex justify-center mb-4 text-5xl bg-zinc-100 w-28 py-7 ml-16 shadow-xl hover:bg-amber-300 hover:text-white"><BsCloudDownload /></div>
+              <div className="flex justify-center mb-4 text-5xl bg-zinc-100 w-28 py-7 mx-auto shadow-xl hover:bg-amber-300 hover:text-white"><BsCloudDownload /></div>
               <p className="text-center text-lg text-slate-950">To identify potential data leaks.</p>
             </div>
             <div>
-              <div className="flex justify-center mb-4 text-5xl bg-zinc-100 w-28 py-7 ml-16      shadow-xl hover:bg-amber-300 hover:text-white"><MdLocationSearching /></div>
+              <div className="flex justify-center mb-4 text-5xl bg-zinc-100 w-28 py-7 mx-auto      shadow-xl hover:bg-amber-300 hover:text-white"><MdLocationSearching /></div>
               <p className="text-center text-lg text-slate-950">To highlight weaknesses in human <br /> behaviour.</p>
             </div>
 
