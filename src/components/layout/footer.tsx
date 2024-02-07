@@ -11,9 +11,6 @@ import { FaYoutube } from "react-icons/fa";
 
 export const Footer = () => {
   return (
-
-
-
     <div className=" bg-[#122135] md:p-28 p-4">
       <footer className="md:flex md:space-x-16">
         <div className="text-white text-base font-medium leading-relaxed md:pt-0 pt-20">
@@ -83,9 +80,6 @@ export const Footer = () => {
       </div>
 
     </div>
-
-
-
   )
 }
 
