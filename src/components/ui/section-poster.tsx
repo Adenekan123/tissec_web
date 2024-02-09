@@ -9,5 +9,6 @@ export const SectionPoster = ({ image, children }: { image: string, children: Re
                 </div>
             </div>
         </section>
+
     )
 }
