@@ -24,19 +24,19 @@ const RansomWareSimulation = () => {
       </section>
 
       <section className=" -mt-24 relative z-10 ">
-        <div className="bg-zinc-50 md:px-12 px-16 pb-4 md:mx-24 z-30">
+        <div className="bg-zinc-50 md:px-12 px-6 pb-4 md:mx-24 z-30">
           <h2 className="flex md:text-4xl text-2xl text-blue-950 md:justify-center text-center mb-16 pt-12">Why you need a ransomware simulation service</h2>
           <div className="md:flex justify-center md:space-x-28 mb-16">
             <div className="md:mb-0 mb-12">
-              <div className="flex justify-center mb-4 text-5xl bg-zinc-100 w-28 py-7 ml-16 shadow-xl hover:bg-amber-300 hover:text-white"><CiLock /></div>
+              <div className="flex justify-center mb-4 text-5xl bg-zinc-100 w-28 py-7 mx-auto shadow-xl hover:bg-amber-300 hover:text-white"><CiLock /></div>
               <p className="text-center text-xl text-blue-950">Test your incident response procedure</p>
             </div>
             <div className="md:mb-0 mb-12">
-              <div className="flex justify-center mb-4 text-5xl bg-zinc-100 w-28 py-7 ml-16 shadow-xl hover:bg-amber-300 hover:text-white"><IoIosCheckmarkCircleOutline /></div>
+              <div className="flex justify-center mb-4 text-5xl bg-zinc-100 w-28 py-7 mx-auto shadow-xl hover:bg-amber-300 hover:text-white"><IoIosCheckmarkCircleOutline /></div>
               <p className="text-center text-lg text-blue-950">Provide assurance to stakeholders</p>
             </div>
             <div className="md:mb-0 mb-12">
-              <div className="flex justify-center mb-4 text-5xl bg-zinc-100 w-28 py-7 ml-16      shadow-xl hover:bg-amber-300 hover:text-white"><MdLocationSearching /></div>
+              <div className="flex justify-center mb-4 text-5xl bg-zinc-100 w-28 py-7 mx-auto      shadow-xl hover:bg-amber-300 hover:text-white"><MdLocationSearching /></div>
               <p className="text-center text-lg text-blue-950">Receive essential guidance to address risks</p>
             </div>
 
@@ -125,7 +125,7 @@ const RansomWareSimulation = () => {
                 <label htmlFor="">I agree to the privacy policy.</label>
               </div>
               <div className="flex items-center gap-x-3">
-                <input type="checkbox" name="" id="" />
+                <div><input type="checkbox" name="" id="" /></div>
                 <label htmlFor="">
                   I agree to receive marketing emails from Falanx and understand
                   that I can unsubscribe at any time..
