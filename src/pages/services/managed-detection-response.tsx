@@ -36,22 +36,22 @@ const ManagedDetectionResponse = () => {
                     <h2 className="flex md:text-4xl text-3xl text-blue-950 md:justify-center text-center mb-16 pt-12">Why do I need a managed detection and response service?</h2>
                     <div className="md:grid md:grid-cols-4 justify-center md:space-x-12 mb-16">
                         <div className="md:mb-0 mb-12">
-                            <div className="flex justify-center items-center mb-4 text-5xl bg-zinc-100 w-28 py-7  shadow-xl hover:bg-amber-300 hover:text-white ml-16 text-blue-950"><HiOutlineLockOpen /></div>
+                            <div className="flex justify-center items-center mb-4 text-5xl bg-zinc-100 w-28 py-7  shadow-xl hover:bg-amber-300 hover:text-white mx-auto text-blue-950"><HiOutlineLockOpen /></div>
                             <p className="text-center text-xl text-blue-950 mb-8">Ransomware protection</p>
                             <p className="text-blue-950 md:px-4 text-center">We detect and respond to threats across your entire IT estate and spot signs of intrusion early.</p>
                         </div>
                         <div className="md:mb-0 mb-12">
-                            <div className="flex justify-center mb-4 text-5xl bg-zinc-100 w-28 py-7  shadow-xl hover:bg-amber-300 hover:text-white ml-12 text-blue-950"><RxCounterClockwiseClock /></div>
+                            <div className="flex justify-center mb-4 text-5xl bg-zinc-100 w-28 py-7  shadow-xl hover:bg-amber-300 hover:text-white mx-auto text-blue-950"><RxCounterClockwiseClock /></div>
                             <p className="text-center text-lg text-blue-950 mb-8">Out of hours cover</p>
                             <p className="text-blue-950 text-center">Our team are an extension of yours. We’re here, around the clock, watching for anomalies on your network</p>
                         </div>
                         <div className="md:mb-0 mb-12">
-                            <div className="flex justify-center mb-4 text-5xl bg-zinc-100 w-28 py-7   shadow-xl hover:bg-amber-300 hover:text-white ml-12 text-blue-950"><TfiAlarmClock /></div>
+                            <div className="flex justify-center mb-4 text-5xl bg-zinc-100 w-28 py-7   shadow-xl hover:bg-amber-300 hover:text-white mx-auto text-blue-950"><TfiAlarmClock /></div>
                             <p className="text-center text-lg text-blue-950 mb-8">Fast response</p>
                             <p className="text-blue-950 text-center">Quickly detect and respond to suspicious activity in real-time</p>
                         </div>
                         <div className="md:mb-0 mb-12">
-                            <div className="flex justify-center mb-4 text-5xl bg-zinc-100 w-28 py-7 shadow-xl hover:bg-amber-300 hover:text-white ml-16 text-blue-950"><SiCircle /></div>
+                            <div className="flex justify-center mb-4 text-5xl bg-zinc-100 w-28 py-7 shadow-xl hover:bg-amber-300 hover:text-white mx-auto text-blue-950"><SiCircle /></div>
                             <p className="text-center text-lg text-blue-950 mb-8">Evolving threat landscape</p>
                             <p className="text-blue-950  text-center">The tools and know-how to maximise breech detection</p>
                         </div>
