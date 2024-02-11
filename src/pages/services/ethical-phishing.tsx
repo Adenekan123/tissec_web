@@ -24,20 +24,20 @@ const EthicalPhishing = () => {
         />
       </section>
       <section className=" -mt-24 relative z-10 ">
-        <div className="bg-zinc-50 p-12 mx-24 z-30">
-          <h2 className="flex text-4xl text-slate-950 justify-center mb-16">Why use our ethical phishing services?</h2>
-          <div className="flex justify-center space-x-28 mb-16">
-            <div>
-              <div className="flex justify-center mb-4 text-5xl bg-zinc-100 w-28 py-7 mx-auto shadow-xl hover:bg-amber-300 hover:text-white"><GoCircleSlash /></div>
-              <p className="text-center text-xl text-slate-950">To test your organisation’s<br /> defences.</p>
+        <div className="bg-zinc-50 md:mx-24 z-30 md:px-12 px-16 pb-4">
+          <h2 className="flex md:text-4xl text-2xl text-slate-950 md:justify-center text-center mb-16 pt-12">Why use our ethical phishing services?</h2>
+          <div className="md:flex justify-center md:space-x-28  mb-16">
+            <div className="md:mb-0 mb-12">
+              <div className="flex justify-center mb-4 text-5xl bg-zinc-100 w-28 mx-auto py-7 ml-16 shadow-xl hover:bg-amber-300 hover:text-white"><GoCircleSlash /></div>
+              <p className="text-center text-xl text-slate-950">To test your organisation’s defences.</p>
             </div>
-            <div>
-              <div className="flex justify-center mb-4 text-5xl bg-zinc-100 w-28 py-7 mx-auto shadow-xl hover:bg-amber-300 hover:text-white"><BsCloudDownload /></div>
+            <div className="md:mb-0 mb-12">
+              <div className="flex justify-center mb-4 text-5xl bg-zinc-100 w-28 py-7 ml-16 shadow-xl hover:bg-amber-300 hover:text-white"><BsCloudDownload /></div>
               <p className="text-center text-lg text-slate-950">To identify potential data leaks.</p>
             </div>
-            <div>
-              <div className="flex justify-center mb-4 text-5xl bg-zinc-100 w-28 py-7 mx-auto      shadow-xl hover:bg-amber-300 hover:text-white"><MdLocationSearching /></div>
-              <p className="text-center text-lg text-slate-950">To highlight weaknesses in human <br /> behaviour.</p>
+            <div className="md:mb-0 mb-12">
+              <div className="flex justify-center mb-4 text-5xl bg-zinc-100 w-28 py-7 ml-16      shadow-xl hover:bg-amber-300 hover:text-white"><MdLocationSearching /></div>
+              <p className="text-center text-lg text-slate-950">To highlight weaknesses in human behaviour.</p>
             </div>
           </div>
         </div>
