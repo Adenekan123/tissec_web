@@ -7,7 +7,7 @@ export const StaticBanner = ({ content, image='/images/home-bg-n.jpg' }: { conte
     <div className={`bg-[url(${image})] bg-cover bg-right h-[70vh] relative pt-12 md:pt-32 px-4 md:px-72`}>
       <div className="flex flex-col md:flex-row md:justify-between md:gap-x-72 pt-24 h-full">
         <div className="flex flex-col gap-y-4 md:gap-y-6  xl:pl-24 relative z-10 w-7/12 md:w-auto md:basis-5/12">
-          <h2 className="text-2xl lg:text-4xl capitalize">{heading}</h2>
+          <h2 className="text-2xl lg:text-4xl capitalize font-bold">{heading}</h2>
           <p className="text-sm lg:text-xl">{description}</p>
         </div>
         <div className="md:basis-3/12 relative z-10 pt-12 ml-auto">
