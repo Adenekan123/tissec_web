@@ -35,8 +35,8 @@ const RetainedTesting = () => {
                     </div>
                 </div>
             </section>
-            <SectionPoster image={'/images/Left-Web-Header-Desktop-1920-×-996px.png'}>
-                <div className="md:basis-1/4 text-left md:mr-24 mt-28">
+            <SectionPoster image={'/images/clockbg.png'}>
+                <div className="md:basis-4/12 text-left md:mr-24 mt-28">
                     <h2 className="md:text-4xl text-sky-950 pb-6 text-3xl">Here to help when you need it the most 24x7x365</h2>
                     <div className="pb-8 md:text-base text-sm text-sky-950">
                         <p className="py-6">Suffering a cybersecurity breach is inevitable in today’s landscape, it can be a nightmare to devise a containment plan, fix the problem, recover systems and maintain business continuity. Then, there’s also the need to simultaneously limit damage through communication and reporting.</p>
@@ -48,7 +48,7 @@ const RetainedTesting = () => {
                 </div>
             </SectionPoster>
             <section>
-                <div className="bg-sky-950 py-8 text-white">
+                <div className="bg-sky-950 py-14 text-white">
                     <div className="md:flex md:mt-8 md:mx-24 md:space-x-7">
                         <div className="basis-1/2 p-3">
                             <details className="border border-white mb-4 hover:border-amber-400 text-base">
