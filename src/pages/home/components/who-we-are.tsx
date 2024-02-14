@@ -1,9 +1,9 @@
 const WhoWeAre = () => {
   return (
-    <div className="bg-[url('/images/home-who-we-are.jpg')] md:bg-cover bg-center  md:px-20 px-4 md:py-28 py-16">
+    <div className="bg-[url('/images/home-who-we-are.jpg')] md:bg-cover bg-center  md:px-20  md:py-28 py-16 text-center md:text-left">
       <div className="flex justify-end items-center">
         <div className="md:basis-6/12">
-          <div className="md:w-5/12 flex flex-col gap-y-10 mx-auto bg-white/80 md:bg-none p-6 md:p-0 rounded-md">
+          <div className="md:w-5/12 flex flex-col gap-y-10 mx-auto bg-white/80 md:bg-none p-6 md:p-0 rounded-md items-center">
             <h2 className="text-4xl">Who we are</h2>
             <p>
               We are cybersecurity experts who can help you identify areas of

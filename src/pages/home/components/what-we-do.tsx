@@ -49,8 +49,8 @@ const WhatWeDo = () => {
   );
 
   return (
-    <div className="px-6 lg:px-24 md:-mt-[300px] relative z-10 text-center">
-      <div className="flex flex-col gap-y-12  bg-slate-100 px-10">
+    <div className=" lg:px-24 md:-mt-[300px] relative z-10 text-center">
+      <div className="flex flex-col gap-y-12  bg-slate-100 px-4 md:px-10">
         <div className="flex flex-col gap-y-12 pt-20 border-b ">
           <h2 className="text-3xl font-semibold">What we do</h2>
           <div className="flex justify-center items-center">
@@ -58,7 +58,7 @@ const WhatWeDo = () => {
               onClick={() => setTab("testing")}
               className={`grow capitalize ${styleActive(
                 "testing"
-              )} relative  pb-4 text-2xl  before:block before:absolute before:hover:border-b-[3px] before:bottom-0 before:w-full  before:border-amber-400 inline-flex justify-center gap-x-4 items-center`}
+              )} relative  pb-4 md:text-2xl  before:block before:absolute before:hover:border-b-[3px] before:bottom-0 before:w-full  before:border-amber-400 inline-flex justify-center gap-x-2 items-center`}
             >
               <HiOutlineArrowRight />
               <span>test</span>
@@ -67,7 +67,7 @@ const WhatWeDo = () => {
               onClick={() => setTab("detect")}
               className={`grow capitalize ${styleActive(
                 "detect"
-              )} relative pb-4 text-2xl  before:block before:absolute before:hover:border-b-[3px] before:bottom-0 before:w-full  before:border-amber-400 inline-flex justify-center gap-x-4 items-center`}
+              )} relative pb-4 md:text-2xl  before:block before:absolute before:hover:border-b-[3px] before:bottom-0 before:w-full  before:border-amber-400 inline-flex justify-center gap-x-4 items-center`}
             >
               <HiOutlineArrowRight />
               <span>detect & respond</span>
@@ -76,7 +76,7 @@ const WhatWeDo = () => {
               onClick={() => setTab("advise")}
               className={`grow capitalize ${styleActive(
                 "advise"
-              )} relative pb-4 text-2xl  before:block before:absolute before:hover:border-b-[3px] before:bottom-0 before:w-full  before:border-amber-400 inline-flex justify-center gap-x-4 items-center`}
+              )} relative pb-4 md:text-2xl   before:block before:absolute before:hover:border-b-[3px] before:bottom-0 before:w-full  before:border-amber-400 inline-flex justify-center gap-x-4 items-center`}
             >
               <HiOutlineArrowRight />
               <span>advise</span>

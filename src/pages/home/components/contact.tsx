@@ -1,32 +1,32 @@
 export const Contacts = () => {
   return (
-    <div className="flex gap-x-6 pr-6 md:pr-20">
-      <div className="basis-3/12 md:basis-5/12 bg-[url('/images/contact-form-home.jpg')] bg-cover bg-left"></div>
-      <div className="basis-7/12 md:basis-7/12 py-10">
+    <div className="flex gap-x-6 pr-6 md:pr-20 w-full">
+      <div className="basis-2/12 md:basis-5/12 bg-[url('/images/contact-form-home.jpg')] bg-cover bg-left"></div>
+      <div className="basis-10/12 md:basis-7/12 py-10 w-full">
         <h2 className="text-4xl mb-24">Contact us</h2>
         <div className="flex flex-col gap-y-12">
-          <div className="flex gap-x-3">
+          <div className="flex gap-x-3 w-full">
             <input
               type="text"
               placeholder="name"
-              className="text-slate-300 active:border-amber-400 py-3 px-3 border border-slate-300 basis-6/12"
+              className="text-slate-300 active:border-amber-400 py-3 px-3 border border-slate-300 d-block w-full basis-full md:basis-6/12 "
             />
             <input
               type="text"
               placeholder="Surname"
-              className="text-slate-300 active:border-amber-400 py-3 px-3 border border-slate-300 basis-6/12"
+              className="text-slate-300 active:border-amber-400 py-3 px-3 border border-slate-300 d-block w-full basis-full  md:basis-6/12"
             />
           </div>
           <div className="flex gap-x-3">
             <input
               type="email"
               placeholder="Email"
-              className="text-slate-300 active:border-amber-400 py-3 px-3 border border-slate-300 basis-6/12"
+              className="text-slate-300 active:border-amber-400 py-3 px-3 border border-slate-300 w-full basis-full  md:basis-6/12 d-block"
             />
             <input
               type="text"
               placeholder="Contact Tel"
-              className="text-slate-300 active:border-amber-400 py-3 px-3 border border-slate-300 basis-6/12"
+              className="text-slate-300 active:border-amber-400 py-3 px-3 border border-slate-300 w-full basis-full md:basis-6/12"
             />
           </div>
           <div>

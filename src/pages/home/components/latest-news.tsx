@@ -15,7 +15,7 @@ const LatestNews = () => {
             <img
               src="/images/Partners-Slider-5.png"
               alt=""
-              className=" h-44 w-full object-cover bg-white group-hover:-translate-y-1 transition-all"
+              className=" h-24 md:h-44 w-full object-cover bg-white group-hover:-translate-y-1 transition-all"
             />
             <p className="text-lg font-semibold hover:text-amber-400">
               Wavenet acquires Falanx Cyber
@@ -26,7 +26,7 @@ const LatestNews = () => {
             <img
               src="/images/Partners-Slider-5.png"
               alt=""
-              className="h-44 w-full object-cover bg-white group-hover:-translate-y-1 transition-all"
+              className="h-24 md:h-44 w-full object-cover bg-white group-hover:-translate-y-1 transition-all"
             />
             <p className="text-lg font-semibold hover:text-amber-400">
               Wavenet acquires Falanx Cyber
@@ -37,7 +37,7 @@ const LatestNews = () => {
             <img
               src="/images/Partners-Slider-5.png"
               alt=""
-              className="h-44 w-full object-cover bg-white group-hover:-translate-y-1 transition-all"
+              className="h-24 md:h-44 w-full object-cover bg-white group-hover:-translate-y-1 transition-all"
             />
             <p className="text-lg font-semibold hover:text-amber-400">
               Wavenet acquires Falanx Cyber
@@ -48,7 +48,7 @@ const LatestNews = () => {
             <img
               src="/images/Partners-Slider-5.png"
               alt=""
-              className="h-44 w-full object-cover bg-white group-hover:-translate-y-1 transition-all"
+              className="h-24 md:h-44 w-full object-cover bg-white group-hover:-translate-y-1 transition-all"
             />
             <p className="text-lg font-semibold hover:text-amber-400">
               Wavenet acquires Falanx Cyber
