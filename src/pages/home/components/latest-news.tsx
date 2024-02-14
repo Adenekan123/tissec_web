@@ -17,7 +17,7 @@ const LatestNews = () => {
               alt=""
               className=" h-24 md:h-44 w-full object-cover bg-white group-hover:-translate-y-1 transition-all"
             />
-            <p className="text-lg font-semibold hover:text-amber-400">
+            <p className="md:text-lg font-semibold hover:text-amber-400">
               Wavenet acquires Falanx Cyber
             </p>
             <small className="text-sm">1 month ago</small>
@@ -28,7 +28,7 @@ const LatestNews = () => {
               alt=""
               className="h-24 md:h-44 w-full object-cover bg-white group-hover:-translate-y-1 transition-all"
             />
-            <p className="text-lg font-semibold hover:text-amber-400">
+            <p className="md:text-lg font-semibold hover:text-amber-400">
               Wavenet acquires Falanx Cyber
             </p>
             <small className="text-sm">2 months ago</small>
@@ -39,7 +39,7 @@ const LatestNews = () => {
               alt=""
               className="h-24 md:h-44 w-full object-cover bg-white group-hover:-translate-y-1 transition-all"
             />
-            <p className="text-lg font-semibold hover:text-amber-400">
+            <p className="md:text-lg font-semibold hover:text-amber-400">
               Wavenet acquires Falanx Cyber
             </p>
             <small className="text-sm">3 months ago</small>
@@ -50,7 +50,7 @@ const LatestNews = () => {
               alt=""
               className="h-24 md:h-44 w-full object-cover bg-white group-hover:-translate-y-1 transition-all"
             />
-            <p className="text-lg font-semibold hover:text-amber-400">
+            <p className="md:text-lg font-semibold hover:text-amber-400">
               Wavenet acquires Falanx Cyber
             </p>
             <small className="text-sm">3 month ago</small>
