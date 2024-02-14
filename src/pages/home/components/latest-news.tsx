@@ -20,7 +20,7 @@ const LatestNews = () => {
             <p className="md:text-lg font-semibold hover:text-amber-400">
               Wavenet acquires Falanx Cyber
             </p>
-            <small className="text-sm">1 month ago</small>
+            <small className="text-sm text-slate-300">1 month ago</small>
           </Link>
           <Link to={"#"} className="flex flex-col gap-y-6 group">
             <img
@@ -31,7 +31,7 @@ const LatestNews = () => {
             <p className="md:text-lg font-semibold hover:text-amber-400">
               Wavenet acquires Falanx Cyber
             </p>
-            <small className="text-sm">2 months ago</small>
+            <small className="text-sm text-slate-300">2 months ago</small>
           </Link>
           <Link to={"#"} className="flex flex-col gap-y-6 group">
             <img
@@ -42,7 +42,7 @@ const LatestNews = () => {
             <p className="md:text-lg font-semibold hover:text-amber-400">
               Wavenet acquires Falanx Cyber
             </p>
-            <small className="text-sm">3 months ago</small>
+            <small className="text-sm text-slate-300">3 months ago</small>
           </Link>
           <Link to={"#"} className="flex flex-col gap-y-6 group">
             <img
@@ -53,7 +53,7 @@ const LatestNews = () => {
             <p className="md:text-lg font-semibold hover:text-amber-400">
               Wavenet acquires Falanx Cyber
             </p>
-            <small className="text-sm">3 month ago</small>
+            <small className="text-sm text-slate-300">3 month ago</small>
           </Link>
         </div>
       </div>
